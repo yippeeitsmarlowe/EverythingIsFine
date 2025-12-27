@@ -1027,6 +1027,7 @@ CMakeFiles/EverythingIsFine.dir/src/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/___wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__xlocale.h
@@ -1585,6 +1586,7 @@ CMakeFiles/EverythingIsFine.dir/src/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/support.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/support/pthread.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/find_index.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/ignore.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h
@@ -1775,6 +1777,7 @@ CMakeFiles/EverythingIsFine.dir/src/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/limits
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/math.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/memory
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex
@@ -1954,6 +1957,83 @@ CMakeFiles/EverythingIsFine.dir/src/main.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Config.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/CircleShape.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/Color.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/ConvexShape.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/Drawable.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/Export.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/Font.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/Glsl.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/Glsl.inl
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/Glyph.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/Image.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/Rect.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/Rect.inl
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/RectangleShape.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/RenderTexture.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/RenderWindow.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/Shader.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/Shape.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/Sprite.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/Text.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/Texture.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/Transform.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/Transformable.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/VertexArray.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Graphics/View.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Clock.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Err.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Export.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/FileInputStream.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/InputStream.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Lock.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/MemoryInputStream.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Mutex.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Sleep.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/String.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/String.inl
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Thread.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Thread.inl
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/ThreadLocal.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/ThreadLocalPtr.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/ThreadLocalPtr.inl
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Time.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Utf.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Utf.inl
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Vector2.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Vector2.inl
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Vector3.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Vector3.inl
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Clipboard.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Context.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Cursor.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Event.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Export.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Joystick.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Keyboard.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Mouse.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Sensor.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Touch.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/VideoMode.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Vulkan.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Window.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/WindowBase.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/WindowStyle.hpp
+ /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/include/Game.h
 
 CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.o
  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/ui/Menu.cpp
