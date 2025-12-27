@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mbake/Documents/EverythingIsFine
+CMAKE_SOURCE_DIR = /Users/mbake/Documents/EverythingIsFine/EverythingIsFine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mbake/Documents/EverythingIsFine/build
+CMAKE_BINARY_DIR = /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/EverythingIsFine.dir/depend.make
@@ -73,43 +73,107 @@ CMakeFiles/EverythingIsFine.dir/codegen:
 .PHONY : CMakeFiles/EverythingIsFine.dir/codegen
 
 CMakeFiles/EverythingIsFine.dir/src/Game.cpp.o: CMakeFiles/EverythingIsFine.dir/flags.make
-CMakeFiles/EverythingIsFine.dir/src/Game.cpp.o: /Users/mbake/Documents/EverythingIsFine/src/Game.cpp
+CMakeFiles/EverythingIsFine.dir/src/Game.cpp.o: /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/Game.cpp
 CMakeFiles/EverythingIsFine.dir/src/Game.cpp.o: CMakeFiles/EverythingIsFine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EverythingIsFine.dir/src/Game.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EverythingIsFine.dir/src/Game.cpp.o -MF CMakeFiles/EverythingIsFine.dir/src/Game.cpp.o.d -o CMakeFiles/EverythingIsFine.dir/src/Game.cpp.o -c /Users/mbake/Documents/EverythingIsFine/src/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EverythingIsFine.dir/src/Game.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EverythingIsFine.dir/src/Game.cpp.o -MF CMakeFiles/EverythingIsFine.dir/src/Game.cpp.o.d -o CMakeFiles/EverythingIsFine.dir/src/Game.cpp.o -c /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/Game.cpp
 
 CMakeFiles/EverythingIsFine.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EverythingIsFine.dir/src/Game.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mbake/Documents/EverythingIsFine/src/Game.cpp > CMakeFiles/EverythingIsFine.dir/src/Game.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/Game.cpp > CMakeFiles/EverythingIsFine.dir/src/Game.cpp.i
 
 CMakeFiles/EverythingIsFine.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EverythingIsFine.dir/src/Game.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mbake/Documents/EverythingIsFine/src/Game.cpp -o CMakeFiles/EverythingIsFine.dir/src/Game.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/Game.cpp -o CMakeFiles/EverythingIsFine.dir/src/Game.cpp.s
+
+CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.o: CMakeFiles/EverythingIsFine.dir/flags.make
+CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.o: /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/gameplay/Player.cpp
+CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.o: CMakeFiles/EverythingIsFine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.o -MF CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.o.d -o CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.o -c /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/gameplay/Player.cpp
+
+CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/gameplay/Player.cpp > CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.i
+
+CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/gameplay/Player.cpp -o CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.s
+
+CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.o: CMakeFiles/EverythingIsFine.dir/flags.make
+CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.o: /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/gfx/PlayerView.cpp
+CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.o: CMakeFiles/EverythingIsFine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.o -MF CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.o.d -o CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.o -c /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/gfx/PlayerView.cpp
+
+CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/gfx/PlayerView.cpp > CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.i
+
+CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/gfx/PlayerView.cpp -o CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.s
 
 CMakeFiles/EverythingIsFine.dir/src/main.cpp.o: CMakeFiles/EverythingIsFine.dir/flags.make
-CMakeFiles/EverythingIsFine.dir/src/main.cpp.o: /Users/mbake/Documents/EverythingIsFine/src/main.cpp
+CMakeFiles/EverythingIsFine.dir/src/main.cpp.o: /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/main.cpp
 CMakeFiles/EverythingIsFine.dir/src/main.cpp.o: CMakeFiles/EverythingIsFine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EverythingIsFine.dir/src/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EverythingIsFine.dir/src/main.cpp.o -MF CMakeFiles/EverythingIsFine.dir/src/main.cpp.o.d -o CMakeFiles/EverythingIsFine.dir/src/main.cpp.o -c /Users/mbake/Documents/EverythingIsFine/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EverythingIsFine.dir/src/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EverythingIsFine.dir/src/main.cpp.o -MF CMakeFiles/EverythingIsFine.dir/src/main.cpp.o.d -o CMakeFiles/EverythingIsFine.dir/src/main.cpp.o -c /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/main.cpp
 
 CMakeFiles/EverythingIsFine.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EverythingIsFine.dir/src/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mbake/Documents/EverythingIsFine/src/main.cpp > CMakeFiles/EverythingIsFine.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/main.cpp > CMakeFiles/EverythingIsFine.dir/src/main.cpp.i
 
 CMakeFiles/EverythingIsFine.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EverythingIsFine.dir/src/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mbake/Documents/EverythingIsFine/src/main.cpp -o CMakeFiles/EverythingIsFine.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/main.cpp -o CMakeFiles/EverythingIsFine.dir/src/main.cpp.s
+
+CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.o: CMakeFiles/EverythingIsFine.dir/flags.make
+CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.o: /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/ui/Menu.cpp
+CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.o: CMakeFiles/EverythingIsFine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.o -MF CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.o.d -o CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.o -c /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/ui/Menu.cpp
+
+CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/ui/Menu.cpp > CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.i
+
+CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/ui/Menu.cpp -o CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.s
+
+CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.o: CMakeFiles/EverythingIsFine.dir/flags.make
+CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.o: /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/ui/OpeningCredits.cpp
+CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.o: CMakeFiles/EverythingIsFine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.o -MF CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.o.d -o CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.o -c /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/ui/OpeningCredits.cpp
+
+CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/ui/OpeningCredits.cpp > CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.i
+
+CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/ui/OpeningCredits.cpp -o CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.s
 
 # Object files for target EverythingIsFine
 EverythingIsFine_OBJECTS = \
 "CMakeFiles/EverythingIsFine.dir/src/Game.cpp.o" \
-"CMakeFiles/EverythingIsFine.dir/src/main.cpp.o"
+"CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.o" \
+"CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.o" \
+"CMakeFiles/EverythingIsFine.dir/src/main.cpp.o" \
+"CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.o" \
+"CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.o"
 
 # External object files for target EverythingIsFine
 EverythingIsFine_EXTERNAL_OBJECTS =
 
 bin/EverythingIsFine: CMakeFiles/EverythingIsFine.dir/src/Game.cpp.o
+bin/EverythingIsFine: CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.o
+bin/EverythingIsFine: CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.o
 bin/EverythingIsFine: CMakeFiles/EverythingIsFine.dir/src/main.cpp.o
+bin/EverythingIsFine: CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.o
+bin/EverythingIsFine: CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.o
 bin/EverythingIsFine: CMakeFiles/EverythingIsFine.dir/build.make
 bin/EverythingIsFine: _deps/sfml-build/lib/libsfml-graphics-s-d.a
 bin/EverythingIsFine: _deps/sfml-build/lib/libsfml-window-s-d.a
@@ -118,10 +182,10 @@ bin/EverythingIsFine: _deps/sfml-build/lib/libsfml-network-s-d.a
 bin/EverythingIsFine: _deps/sfml-build/lib/libsfml-audio-s-d.a
 bin/EverythingIsFine: _deps/sfml-build/lib/libsfml-system-s-d.a
 bin/EverythingIsFine: CMakeFiles/EverythingIsFine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin/EverythingIsFine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable bin/EverythingIsFine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EverythingIsFine.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying assets to output directory"
-	/opt/homebrew/bin/cmake -E copy_directory /Users/mbake/Documents/EverythingIsFine/assets /Users/mbake/Documents/EverythingIsFine/build/bin/assets
+	/opt/homebrew/bin/cmake -E copy_directory /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/assets /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/bin/assets
 
 # Rule to build all files generated by this target.
 CMakeFiles/EverythingIsFine.dir/build: bin/EverythingIsFine
@@ -132,6 +196,6 @@ CMakeFiles/EverythingIsFine.dir/clean:
 .PHONY : CMakeFiles/EverythingIsFine.dir/clean
 
 CMakeFiles/EverythingIsFine.dir/depend:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mbake/Documents/EverythingIsFine /Users/mbake/Documents/EverythingIsFine /Users/mbake/Documents/EverythingIsFine/build /Users/mbake/Documents/EverythingIsFine/build /Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/EverythingIsFine.dir/DependInfo.cmake "--color=$(COLOR)" EverythingIsFine
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mbake/Documents/EverythingIsFine/EverythingIsFine /Users/mbake/Documents/EverythingIsFine/EverythingIsFine /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/EverythingIsFine.dir/DependInfo.cmake "--color=$(COLOR)" EverythingIsFine
 .PHONY : CMakeFiles/EverythingIsFine.dir/depend
 

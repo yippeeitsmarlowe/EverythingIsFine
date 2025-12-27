@@ -1,14 +1,14 @@
 _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o: \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/src/SFML/Network/Ftp.cpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/Network/Ftp.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/Network/Export.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/Config.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/src/SFML/Network/Ftp.cpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Network/Ftp.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Network/Export.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Config.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/Network/TcpSocket.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/Network/Socket.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/Network/SocketHandle.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Network/TcpSocket.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Network/Socket.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Network/SocketHandle.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Export.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h \
@@ -878,8 +878,8 @@ _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Time.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/Network/IpAddress.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Time.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Network/IpAddress.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
@@ -941,7 +941,7 @@ _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Err.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Err.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \

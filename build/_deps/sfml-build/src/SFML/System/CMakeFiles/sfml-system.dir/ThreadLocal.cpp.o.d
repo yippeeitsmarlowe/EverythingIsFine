@@ -1,10 +1,10 @@
 _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.o: \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/src/SFML/System/ThreadLocal.cpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/ThreadLocal.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Export.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/Config.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/src/SFML/System/ThreadLocal.cpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/ThreadLocal.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Config.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdlib \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -101,7 +101,7 @@ _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_abort.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/src/SFML/System/Unix/ThreadLocalImpl.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/src/SFML/System/Unix/ThreadLocalImpl.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/pthread_impl.h \

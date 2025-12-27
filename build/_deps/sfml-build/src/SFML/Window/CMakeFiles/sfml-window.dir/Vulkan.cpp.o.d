@@ -1,10 +1,10 @@
 _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.o: \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/src/SFML/Window/Vulkan.cpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Vulkan.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/Config.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/src/SFML/Window/Vulkan.cpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Vulkan.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Config.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h \

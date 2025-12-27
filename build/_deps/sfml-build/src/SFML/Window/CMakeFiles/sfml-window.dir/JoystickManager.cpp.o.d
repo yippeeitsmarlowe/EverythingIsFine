@@ -1,13 +1,13 @@
 _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o: \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/src/SFML/Window/JoystickManager.cpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/src/SFML/Window/JoystickManager.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/Config.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/src/SFML/Window/JoystickManager.cpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/src/SFML/Window/JoystickManager.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Config.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/String.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Export.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/String.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -847,10 +847,10 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Utf.inl \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/String.inl \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/src/SFML/Window/JoystickImpl.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/src/SFML/Window/OSX/JoystickImpl.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Utf.inl \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/String.inl \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/src/SFML/Window/JoystickImpl.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/src/SFML/Window/OSX/JoystickImpl.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
@@ -1094,4 +1094,4 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind_back.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind_front.h \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp

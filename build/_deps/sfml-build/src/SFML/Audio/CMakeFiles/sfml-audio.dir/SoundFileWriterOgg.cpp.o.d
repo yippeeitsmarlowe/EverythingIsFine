@@ -1,9 +1,9 @@
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o: \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterOgg.cpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterOgg.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/Audio/SoundFileWriter.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/Audio/Export.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/Config.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterOgg.cpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterOgg.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Audio/SoundFileWriter.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Audio/Export.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/Config.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
@@ -774,10 +774,10 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/bit_width.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/endian.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/has_single_bit.h \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/vorbis/vorbisenc.h \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/vorbis/codec.h \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/ogg/ogg.h \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/ogg/os_types.h \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/vorbis/vorbisenc.h \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/vorbis/codec.h \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/ogg/ogg.h \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/ogg/os_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
@@ -964,8 +964,8 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Err.hpp \
-  /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Err.hpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include/SFML/System/Export.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \

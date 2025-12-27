@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mbake/Documents/EverythingIsFine
+CMAKE_SOURCE_DIR = /Users/mbake/Documents/EverythingIsFine/EverythingIsFine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mbake/Documents/EverythingIsFine/build
+CMAKE_BINARY_DIR = /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/mbake/Documents/EverythingIsFine/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /Users/mbake/Documents/EverythingIsFine/build && /opt/homebrew/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && /opt/homebrew/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /Users/mbake/Documents/EverythingIsFine/build && /opt/homebrew/bin/cpack --config ./CPackSourceConfig.cmake
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && /opt/homebrew/bin/cpack --config ./CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mbake/Documents/EverythingIsFine/build/CMakeFiles /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-build/src/SFML/Network//CMakeFiles/progress.marks
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sfml-build/src/SFML/Network/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mbake/Documents/EverythingIsFine/build/CMakeFiles 0
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-build/src/SFML/Network//CMakeFiles/progress.marks
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sfml-build/src/SFML/Network/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sfml-build/src/SFML/Network/clean
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sfml-build/src/SFML/Network/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,23 +168,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sfml-build/src/SFML/Network/preinstall
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sfml-build/src/SFML/Network/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sfml-build/src/SFML/Network/preinstall
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sfml-build/src/SFML/Network/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(CMAKE_COMMAND) -P /Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/VerifyGlobs.cmake
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(CMAKE_COMMAND) -P /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/rule:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/rule
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/rule
 .PHONY : _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/rule
 
 # Convenience name for target.
@@ -193,7 +193,7 @@ sfml-network: _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/rule
 
 # fast build rule for target.
 sfml-network/fast:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build
 .PHONY : sfml-network/fast
 
 Ftp.o: Ftp.cpp.o
@@ -201,7 +201,7 @@ Ftp.o: Ftp.cpp.o
 
 # target to build an object file
 Ftp.cpp.o:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o
 .PHONY : Ftp.cpp.o
 
 Ftp.i: Ftp.cpp.i
@@ -209,7 +209,7 @@ Ftp.i: Ftp.cpp.i
 
 # target to preprocess a source file
 Ftp.cpp.i:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.i
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.i
 .PHONY : Ftp.cpp.i
 
 Ftp.s: Ftp.cpp.s
@@ -217,7 +217,7 @@ Ftp.s: Ftp.cpp.s
 
 # target to generate assembly for a file
 Ftp.cpp.s:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.s
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.s
 .PHONY : Ftp.cpp.s
 
 Http.o: Http.cpp.o
@@ -225,7 +225,7 @@ Http.o: Http.cpp.o
 
 # target to build an object file
 Http.cpp.o:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o
 .PHONY : Http.cpp.o
 
 Http.i: Http.cpp.i
@@ -233,7 +233,7 @@ Http.i: Http.cpp.i
 
 # target to preprocess a source file
 Http.cpp.i:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.i
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.i
 .PHONY : Http.cpp.i
 
 Http.s: Http.cpp.s
@@ -241,7 +241,7 @@ Http.s: Http.cpp.s
 
 # target to generate assembly for a file
 Http.cpp.s:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.s
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.s
 .PHONY : Http.cpp.s
 
 IpAddress.o: IpAddress.cpp.o
@@ -249,7 +249,7 @@ IpAddress.o: IpAddress.cpp.o
 
 # target to build an object file
 IpAddress.cpp.o:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o
 .PHONY : IpAddress.cpp.o
 
 IpAddress.i: IpAddress.cpp.i
@@ -257,7 +257,7 @@ IpAddress.i: IpAddress.cpp.i
 
 # target to preprocess a source file
 IpAddress.cpp.i:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.i
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.i
 .PHONY : IpAddress.cpp.i
 
 IpAddress.s: IpAddress.cpp.s
@@ -265,7 +265,7 @@ IpAddress.s: IpAddress.cpp.s
 
 # target to generate assembly for a file
 IpAddress.cpp.s:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.s
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.s
 .PHONY : IpAddress.cpp.s
 
 Packet.o: Packet.cpp.o
@@ -273,7 +273,7 @@ Packet.o: Packet.cpp.o
 
 # target to build an object file
 Packet.cpp.o:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o
 .PHONY : Packet.cpp.o
 
 Packet.i: Packet.cpp.i
@@ -281,7 +281,7 @@ Packet.i: Packet.cpp.i
 
 # target to preprocess a source file
 Packet.cpp.i:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.i
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.i
 .PHONY : Packet.cpp.i
 
 Packet.s: Packet.cpp.s
@@ -289,7 +289,7 @@ Packet.s: Packet.cpp.s
 
 # target to generate assembly for a file
 Packet.cpp.s:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.s
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.s
 .PHONY : Packet.cpp.s
 
 Socket.o: Socket.cpp.o
@@ -297,7 +297,7 @@ Socket.o: Socket.cpp.o
 
 # target to build an object file
 Socket.cpp.o:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o
 .PHONY : Socket.cpp.o
 
 Socket.i: Socket.cpp.i
@@ -305,7 +305,7 @@ Socket.i: Socket.cpp.i
 
 # target to preprocess a source file
 Socket.cpp.i:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.i
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.i
 .PHONY : Socket.cpp.i
 
 Socket.s: Socket.cpp.s
@@ -313,7 +313,7 @@ Socket.s: Socket.cpp.s
 
 # target to generate assembly for a file
 Socket.cpp.s:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.s
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.s
 .PHONY : Socket.cpp.s
 
 SocketSelector.o: SocketSelector.cpp.o
@@ -321,7 +321,7 @@ SocketSelector.o: SocketSelector.cpp.o
 
 # target to build an object file
 SocketSelector.cpp.o:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o
 .PHONY : SocketSelector.cpp.o
 
 SocketSelector.i: SocketSelector.cpp.i
@@ -329,7 +329,7 @@ SocketSelector.i: SocketSelector.cpp.i
 
 # target to preprocess a source file
 SocketSelector.cpp.i:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.i
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.i
 .PHONY : SocketSelector.cpp.i
 
 SocketSelector.s: SocketSelector.cpp.s
@@ -337,7 +337,7 @@ SocketSelector.s: SocketSelector.cpp.s
 
 # target to generate assembly for a file
 SocketSelector.cpp.s:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.s
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.s
 .PHONY : SocketSelector.cpp.s
 
 TcpListener.o: TcpListener.cpp.o
@@ -345,7 +345,7 @@ TcpListener.o: TcpListener.cpp.o
 
 # target to build an object file
 TcpListener.cpp.o:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o
 .PHONY : TcpListener.cpp.o
 
 TcpListener.i: TcpListener.cpp.i
@@ -353,7 +353,7 @@ TcpListener.i: TcpListener.cpp.i
 
 # target to preprocess a source file
 TcpListener.cpp.i:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.i
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.i
 .PHONY : TcpListener.cpp.i
 
 TcpListener.s: TcpListener.cpp.s
@@ -361,7 +361,7 @@ TcpListener.s: TcpListener.cpp.s
 
 # target to generate assembly for a file
 TcpListener.cpp.s:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.s
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.s
 .PHONY : TcpListener.cpp.s
 
 TcpSocket.o: TcpSocket.cpp.o
@@ -369,7 +369,7 @@ TcpSocket.o: TcpSocket.cpp.o
 
 # target to build an object file
 TcpSocket.cpp.o:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o
 .PHONY : TcpSocket.cpp.o
 
 TcpSocket.i: TcpSocket.cpp.i
@@ -377,7 +377,7 @@ TcpSocket.i: TcpSocket.cpp.i
 
 # target to preprocess a source file
 TcpSocket.cpp.i:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.i
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.i
 .PHONY : TcpSocket.cpp.i
 
 TcpSocket.s: TcpSocket.cpp.s
@@ -385,7 +385,7 @@ TcpSocket.s: TcpSocket.cpp.s
 
 # target to generate assembly for a file
 TcpSocket.cpp.s:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.s
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.s
 .PHONY : TcpSocket.cpp.s
 
 UdpSocket.o: UdpSocket.cpp.o
@@ -393,7 +393,7 @@ UdpSocket.o: UdpSocket.cpp.o
 
 # target to build an object file
 UdpSocket.cpp.o:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o
 .PHONY : UdpSocket.cpp.o
 
 UdpSocket.i: UdpSocket.cpp.i
@@ -401,7 +401,7 @@ UdpSocket.i: UdpSocket.cpp.i
 
 # target to preprocess a source file
 UdpSocket.cpp.i:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.i
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.i
 .PHONY : UdpSocket.cpp.i
 
 UdpSocket.s: UdpSocket.cpp.s
@@ -409,7 +409,7 @@ UdpSocket.s: UdpSocket.cpp.s
 
 # target to generate assembly for a file
 UdpSocket.cpp.s:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.s
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.s
 .PHONY : UdpSocket.cpp.s
 
 Unix/SocketImpl.o: Unix/SocketImpl.cpp.o
@@ -417,7 +417,7 @@ Unix/SocketImpl.o: Unix/SocketImpl.cpp.o
 
 # target to build an object file
 Unix/SocketImpl.cpp.o:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o
 .PHONY : Unix/SocketImpl.cpp.o
 
 Unix/SocketImpl.i: Unix/SocketImpl.cpp.i
@@ -425,7 +425,7 @@ Unix/SocketImpl.i: Unix/SocketImpl.cpp.i
 
 # target to preprocess a source file
 Unix/SocketImpl.cpp.i:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.i
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.i
 .PHONY : Unix/SocketImpl.cpp.i
 
 Unix/SocketImpl.s: Unix/SocketImpl.cpp.s
@@ -433,7 +433,7 @@ Unix/SocketImpl.s: Unix/SocketImpl.cpp.s
 
 # target to generate assembly for a file
 Unix/SocketImpl.cpp.s:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.s
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(MAKE) $(MAKESILENT) -f _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.s
 .PHONY : Unix/SocketImpl.cpp.s
 
 # Help Target
@@ -492,7 +492,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(CMAKE_COMMAND) -P /Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/VerifyGlobs.cmake
-	cd /Users/mbake/Documents/EverythingIsFine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(CMAKE_COMMAND) -P /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

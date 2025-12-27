@@ -191,7 +191,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is AppleClang, found in:
-        /Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/4.2.0/CompilerIdCXX/a.out
+        /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/4.2.0/CompilerIdCXX/a.out
       
   -
     kind: "message-v1"
@@ -908,8 +908,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-qbFyUO"
-      binary: "/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-qbFyUO"
+      source: "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-qSvA4K"
+      binary: "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-qSvA4K"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -922,19 +922,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-qbFyUO'
+        Change Dir: '/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-qSvA4K'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f649d/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f649d.dir/build.make CMakeFiles/cmTC_f649d.dir/build
-        Building CXX object CMakeFiles/cmTC_f649d.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/clang++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_f649d.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_f649d.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_f649d.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6b73d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6b73d.dir/build.make CMakeFiles/cmTC_6b73d.dir/build
+        Building CXX object CMakeFiles/cmTC_6b73d.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/clang++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_6b73d.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_6b73d.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_6b73d.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-qbFyUO -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-qbFyUO -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_f649d.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_f649d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f649d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-qSvA4K -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-qSvA4K -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_6b73d.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_6b73d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6b73d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target arm64-apple-darwin24.6.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks"
@@ -948,13 +948,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_f649d
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f649d.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_6b73d
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b73d.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_f649d -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f649d.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_6b73d -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_6b73d.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1167.5
         BUILD 01:45:05 Apr 30 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -967,7 +967,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/clang++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f649d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f649d
+        /usr/bin/clang++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_6b73d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6b73d
         
       exitCode: 0
   -
@@ -1013,19 +1013,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-qbFyUO']
+        ignore line: [Change Dir: '/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-qSvA4K']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f649d/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f649d.dir/build.make CMakeFiles/cmTC_f649d.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_f649d.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/clang++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_f649d.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_f649d.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_f649d.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6b73d/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6b73d.dir/build.make CMakeFiles/cmTC_6b73d.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_6b73d.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/clang++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_6b73d.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_6b73d.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_6b73d.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-qbFyUO -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-qbFyUO -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_f649d.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_f649d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f649d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-qSvA4K -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-qSvA4K -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_6b73d.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_6b73d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6b73d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target arm64-apple-darwin24.6.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks"]
@@ -1039,13 +1039,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_f649d]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f649d.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_6b73d]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b73d.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_f649d -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f649d.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_6b73d -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_6b73d.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1062,12 +1062,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_f649d] ==> ignore
+          arg [cmTC_6b73d] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_f649d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_6b73d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
@@ -1295,7 +1295,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is AppleClang, found in:
-        /Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/4.2.0/CompilerIdC/a.out
+        /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/4.2.0/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -1347,8 +1347,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-vYubG9"
-      binary: "/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-vYubG9"
+      source: "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-8vwP6s"
+      binary: "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-8vwP6s"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1356,23 +1356,23 @@ events:
       CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
       CMAKE_OSX_SYSROOT: ""
-      CMAKE_USER_MAKE_RULES_OVERRIDE: "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-vYubG9'
+        Change Dir: '/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-8vwP6s'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_15115/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_15115.dir/build.make CMakeFiles/cmTC_15115.dir/build
-        Building C object CMakeFiles/cmTC_15115.dir/CMakeCCompilerABI.c.o
-        /usr/bin/clang   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_15115.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_15115.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_15115.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4cd83/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4cd83.dir/build.make CMakeFiles/cmTC_4cd83.dir/build
+        Building C object CMakeFiles/cmTC_4cd83.dir/CMakeCCompilerABI.c.o
+        /usr/bin/clang   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_4cd83.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_4cd83.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_4cd83.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-vYubG9 -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-vYubG9 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_15115.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_15115.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_15115.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-8vwP6s -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-8vwP6s -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_4cd83.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_4cd83.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4cd83.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target arm64-apple-darwin24.6.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks"
@@ -1385,13 +1385,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_15115
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15115.dir/link.txt --verbose=1
+        Linking C executable cmTC_4cd83
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cd83.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_15115 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_15115.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_4cd83 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4cd83.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1167.5
         BUILD 01:45:05 Apr 30 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1404,7 +1404,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/clang  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_15115.dir/CMakeCCompilerABI.c.o -o cmTC_15115
+        /usr/bin/clang  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_4cd83.dir/CMakeCCompilerABI.c.o -o cmTC_4cd83
         
       exitCode: 0
   -
@@ -1448,18 +1448,18 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-vYubG9']
+        ignore line: [Change Dir: '/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-8vwP6s']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_15115/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_15115.dir/build.make CMakeFiles/cmTC_15115.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_15115.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/clang   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_15115.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_15115.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_15115.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4cd83/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4cd83.dir/build.make CMakeFiles/cmTC_4cd83.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_4cd83.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/clang   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_4cd83.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_4cd83.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_4cd83.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-vYubG9 -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-vYubG9 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_15115.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_15115.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_15115.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-8vwP6s -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/CMakeScratch/TryCompile-8vwP6s -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_4cd83.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_4cd83.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4cd83.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target arm64-apple-darwin24.6.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks"]
@@ -1472,13 +1472,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_15115]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15115.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_4cd83]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cd83.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_15115 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_15115.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_4cd83 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4cd83.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1495,12 +1495,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_15115] ==> ignore
+          arg [cmTC_4cd83] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_15115.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_4cd83.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
@@ -1581,7 +1581,7 @@ events:
     found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       CMAKE_LIBRARY_PATH:
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/lib/"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/lib/"
       ENV{PATH}:
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
@@ -1669,7 +1669,7 @@ events:
     found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       CMAKE_LIBRARY_PATH:
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/lib/"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/lib/"
       ENV{PATH}:
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
@@ -1731,7 +1731,7 @@ events:
       - "OpenGL/gl.h"
       - "GL/gl.h"
     candidate_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -1774,7 +1774,7 @@ events:
       - "/Network/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/OpenGL.framework/Headers/gl.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/OpenGL.framework/Headers/gl.h"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/OpenGL.framework/Headers/gl.h"
       - "/opt/homebrew/bin/OpenGL.framework/Headers/gl.h"
       - "/opt/homebrew/sbin/OpenGL.framework/Headers/gl.h"
@@ -1814,7 +1814,7 @@ events:
     found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       CMAKE_INCLUDE_PATH:
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
       ENV{PATH}:
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
@@ -1876,7 +1876,7 @@ events:
       - "OpenGL/glu.h"
       - "GL/glu.h"
     candidate_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -1919,7 +1919,7 @@ events:
       - "/Network/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/OpenGL.framework/Headers/glu.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/OpenGL.framework/Headers/glu.h"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/OpenGL.framework/Headers/glu.h"
       - "/opt/homebrew/bin/OpenGL.framework/Headers/glu.h"
       - "/opt/homebrew/sbin/OpenGL.framework/Headers/glu.h"
@@ -1959,7 +1959,7 @@ events:
     found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       CMAKE_INCLUDE_PATH:
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
       ENV{PATH}:
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
@@ -2020,14 +2020,14 @@ events:
     names:
       - "ft2build.h"
     candidate_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/freetype2/"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype2/"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/freetype2/"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/freetype2/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype2/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/freetype2/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/include/freetype2/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/include/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/freetype2/"
@@ -2209,13 +2209,13 @@ events:
       - "/usr/freeware/freetype2/"
       - "/usr/freeware/"
     searched_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/freetype2/ft2build.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/ft2build.h"
-    found: "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/freetype2/ft2build.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/ft2build.h"
+    found: "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/"
     search_context:
       CMAKE_INCLUDE_PATH:
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2"
       ENV{PATH}:
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
@@ -2277,14 +2277,14 @@ events:
       - "freetype/config/ftheader.h"
       - "config/ftheader.h"
     candidate_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/freetype2/"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype2/"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/freetype2/"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/freetype2/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype2/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/freetype2/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/include/freetype2/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/include/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/freetype2/"
@@ -2466,14 +2466,14 @@ events:
       - "/usr/freeware/freetype2/"
       - "/usr/freeware/"
     searched_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/freetype2/freetype.framework/Headers/config/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/freetype.framework/Headers/config/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/freetype.framework/Headers/config/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype.framework/Headers/config/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype2/freetype.framework/Headers/config/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype.framework/Headers/config/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/freetype2/freetype.framework/Headers/config/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/freetype.framework/Headers/config/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/freetype2/freetype.framework/Headers/config/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/freetype.framework/Headers/config/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/freetype.framework/Headers/config/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype.framework/Headers/config/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype2/freetype.framework/Headers/config/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype.framework/Headers/config/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/freetype2/freetype.framework/Headers/config/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/freetype.framework/Headers/config/ftheader.h"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/include/freetype2/freetype.framework/Headers/config/ftheader.h"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/include/freetype.framework/Headers/config/ftheader.h"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/freetype2/freetype.framework/Headers/config/ftheader.h"
@@ -2654,14 +2654,14 @@ events:
       - "/usr/freeware/include/freetype.framework/Headers/config/ftheader.h"
       - "/usr/freeware/freetype2/freetype.framework/Headers/config/ftheader.h"
       - "/usr/freeware/freetype.framework/Headers/config/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/freetype2/config.framework/Headers/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/config.framework/Headers/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/config.framework/Headers/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/config.framework/Headers/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype2/config.framework/Headers/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/config.framework/Headers/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/freetype2/config.framework/Headers/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/config.framework/Headers/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/freetype2/config.framework/Headers/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/config.framework/Headers/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/config.framework/Headers/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/config.framework/Headers/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype2/config.framework/Headers/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/config.framework/Headers/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/freetype2/config.framework/Headers/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/config.framework/Headers/ftheader.h"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/include/freetype2/config.framework/Headers/ftheader.h"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/include/config.framework/Headers/ftheader.h"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/freetype2/config.framework/Headers/ftheader.h"
@@ -2842,14 +2842,14 @@ events:
       - "/usr/freeware/include/config.framework/Headers/ftheader.h"
       - "/usr/freeware/freetype2/config.framework/Headers/ftheader.h"
       - "/usr/freeware/config.framework/Headers/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/freetype2/freetype/config/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/freetype/config/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/freetype/config/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype/config/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype2/freetype/config/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype/config/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/freetype2/freetype/config/ftheader.h"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/freetype/config/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/freetype2/freetype/config/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/freetype/config/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/freetype/config/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype/config/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype2/freetype/config/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/include/freetype/config/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/freetype2/freetype/config/ftheader.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2/freetype/config/ftheader.h"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/include/freetype2/freetype/config/ftheader.h"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/include/freetype/config/ftheader.h"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/freetype2/freetype/config/ftheader.h"
@@ -2915,8 +2915,8 @@ events:
     found: "/opt/homebrew/include/freetype2/"
     search_context:
       CMAKE_INCLUDE_PATH:
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2"
       ENV{PATH}:
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
@@ -2979,7 +2979,7 @@ events:
       - "libfreetype"
       - "freetype219"
     candidate_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -3007,11 +3007,11 @@ events:
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
-    found: "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/freetype.framework"
+    found: "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/freetype.framework"
     search_context:
       CMAKE_LIBRARY_PATH:
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/lib/"
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/lib/"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks"
       ENV{PATH}:
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
@@ -3072,12 +3072,12 @@ events:
     names:
       - "al.h"
     candidate_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/AL/"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/OpenAL/"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/AL/"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/OpenAL/"
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/AL/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/OpenAL/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/include/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/AL/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/OpenAL/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/include/AL/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/include/OpenAL/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/include/"
@@ -3333,7 +3333,7 @@ events:
     found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers/"
     search_context:
       CMAKE_INCLUDE_PATH:
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
       ENV{PATH}:
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
@@ -3397,7 +3397,7 @@ events:
       - "openal"
       - "OpenAL32"
     candidate_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -3426,11 +3426,11 @@ events:
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
       - "/opt/"
-    found: "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/OpenAL.framework"
+    found: "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/OpenAL.framework"
     search_context:
       CMAKE_LIBRARY_PATH:
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/lib/"
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/lib/"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks"
       ENV{PATH}:
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
@@ -3491,7 +3491,7 @@ events:
     names:
       - "ogg/ogg.h"
     candidate_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -3534,7 +3534,7 @@ events:
       - "/Network/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/ogg.framework/Headers/ogg.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/ogg.framework/Headers/ogg.h"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/ogg.framework/Headers/ogg.h"
       - "/opt/homebrew/bin/ogg.framework/Headers/ogg.h"
       - "/opt/homebrew/sbin/ogg.framework/Headers/ogg.h"
@@ -3576,10 +3576,10 @@ events:
       - "/Library/Frameworks/ogg.framework/Headers/ogg.h"
       - "/Network/Library/Frameworks/ogg.framework/Headers/ogg.h"
       - "/System/Library/Frameworks/ogg.framework/Headers/ogg.h"
-    found: "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
+    found: "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
     search_context:
       CMAKE_INCLUDE_PATH:
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
       ENV{PATH}:
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
@@ -3640,7 +3640,7 @@ events:
     names:
       - "vorbis/vorbisfile.h"
     candidate_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -3683,7 +3683,7 @@ events:
       - "/Network/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/vorbis.framework/Headers/vorbisfile.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/vorbis.framework/Headers/vorbisfile.h"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/vorbis.framework/Headers/vorbisfile.h"
       - "/opt/homebrew/bin/vorbis.framework/Headers/vorbisfile.h"
       - "/opt/homebrew/sbin/vorbis.framework/Headers/vorbisfile.h"
@@ -3725,10 +3725,10 @@ events:
       - "/Library/Frameworks/vorbis.framework/Headers/vorbisfile.h"
       - "/Network/Library/Frameworks/vorbis.framework/Headers/vorbisfile.h"
       - "/System/Library/Frameworks/vorbis.framework/Headers/vorbisfile.h"
-    found: "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
+    found: "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
     search_context:
       CMAKE_INCLUDE_PATH:
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
       ENV{PATH}:
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
@@ -3789,7 +3789,7 @@ events:
     names:
       - "ogg"
     candidate_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -3813,11 +3813,11 @@ events:
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
-    found: "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/ogg.framework"
+    found: "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/ogg.framework"
     search_context:
       CMAKE_LIBRARY_PATH:
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/lib/"
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/lib/"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks"
       ENV{PATH}:
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
@@ -3878,7 +3878,7 @@ events:
     names:
       - "vorbis"
     candidate_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -3902,11 +3902,11 @@ events:
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
-    found: "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbis.framework"
+    found: "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbis.framework"
     search_context:
       CMAKE_LIBRARY_PATH:
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/lib/"
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/lib/"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks"
       ENV{PATH}:
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
@@ -3967,7 +3967,7 @@ events:
     names:
       - "vorbisfile"
     candidate_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -3991,11 +3991,11 @@ events:
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
-    found: "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisfile.framework"
+    found: "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisfile.framework"
     search_context:
       CMAKE_LIBRARY_PATH:
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/lib/"
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/lib/"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks"
       ENV{PATH}:
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
@@ -4056,7 +4056,7 @@ events:
     names:
       - "vorbisenc"
     candidate_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -4080,11 +4080,11 @@ events:
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
-    found: "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisenc.framework"
+    found: "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisenc.framework"
     search_context:
       CMAKE_LIBRARY_PATH:
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/lib/"
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/lib/"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks"
       ENV{PATH}:
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
@@ -4145,7 +4145,7 @@ events:
     names:
       - "FLAC/all.h"
     candidate_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -4188,7 +4188,7 @@ events:
       - "/Network/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/FLAC.framework/Headers/all.h"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/FLAC.framework/Headers/all.h"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/FLAC.framework/Headers/all.h"
       - "/opt/homebrew/bin/FLAC.framework/Headers/all.h"
       - "/opt/homebrew/sbin/FLAC.framework/Headers/all.h"
@@ -4230,10 +4230,10 @@ events:
       - "/Library/Frameworks/FLAC.framework/Headers/all.h"
       - "/Network/Library/Frameworks/FLAC.framework/Headers/all.h"
       - "/System/Library/Frameworks/FLAC.framework/Headers/all.h"
-    found: "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
+    found: "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/"
     search_context:
       CMAKE_INCLUDE_PATH:
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
       ENV{PATH}:
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
@@ -4294,7 +4294,7 @@ events:
     names:
       - "FLAC"
     candidate_directories:
-      - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/"
+      - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -4318,11 +4318,11 @@ events:
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
-    found: "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/FLAC.framework"
+    found: "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/FLAC.framework"
     search_context:
       CMAKE_LIBRARY_PATH:
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/lib/"
-        - "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/lib/"
+        - "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks"
       ENV{PATH}:
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"

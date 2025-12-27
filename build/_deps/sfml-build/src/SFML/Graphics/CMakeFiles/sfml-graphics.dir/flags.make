@@ -4,11 +4,11 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = -DSFML_STATIC -DSTBI_FAILURE_USERMSG
 
-CXX_INCLUDES = -I/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include -I/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/src -isystem /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/stb_image -isystem /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/glad/include -isystem /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2 -isystem /opt/homebrew/include/freetype2
+CXX_INCLUDES = -I/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include -I/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/src -isystem /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/stb_image -isystem /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/glad/include -isystem /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2 -isystem /opt/homebrew/include/freetype2
 
-CXX_FLAGSarm64 = -g -std=c++20 -arch arm64 -F/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks  -fvisibility=hidden
+CXX_FLAGSarm64 = -g -std=c++20 -arch arm64 -F/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks  -fvisibility=hidden
 
-CXX_FLAGS = -g -std=c++20 -arch arm64 -F/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks  -fvisibility=hidden
+CXX_FLAGS = -g -std=c++20 -arch arm64 -F/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks  -fvisibility=hidden
 
 # Custom flags: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.o_FLAGS =  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Wno-unknown-warning-option
 

@@ -56,7 +56,7 @@
 	[
 		{
 			"backtrace" : 4,
-			"fragment" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/FLAC.framework"
+			"fragment" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/FLAC.framework"
 		}
 	],
 	"name" : "FLAC",

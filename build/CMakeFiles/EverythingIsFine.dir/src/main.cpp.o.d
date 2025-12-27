@@ -1,5 +1,5 @@
 CMakeFiles/EverythingIsFine.dir/src/main.cpp.o: \
-  /Users/mbake/Documents/EverythingIsFine/src/main.cpp \
+  /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

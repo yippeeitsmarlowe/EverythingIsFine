@@ -13,7 +13,7 @@
 		"files" : 
 		[
 			"build/_deps/sfml-src/cmake/Macros.cmake",
-			"build/_deps/sfml-src/src/SFML/Graphics/CMakeLists.txt"
+			"build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -23,7 +23,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 126,
+				"line" : 71,
 				"parent" : 0
 			},
 			{
@@ -51,19 +51,19 @@
 		"major" : 2,
 		"minor" : 9
 	},
-	"id" : "Freetype::@98af38147d5fa7e70f61",
+	"id" : "OpenAL::@a153e5727587c53fce98",
 	"interfaceLinkLibraries" : 
 	[
 		{
 			"backtrace" : 4,
-			"fragment" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/freetype.framework"
+			"fragment" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/OpenAL.framework"
 		}
 	],
-	"name" : "Freetype",
+	"name" : "OpenAL",
 	"paths" : 
 	{
-		"build" : "_deps/sfml-build/src/SFML/Graphics",
-		"source" : "build/_deps/sfml-src/src/SFML/Graphics"
+		"build" : "_deps/sfml-build/src/SFML/Audio",
+		"source" : "build/_deps/sfml-src/src/SFML/Audio"
 	},
 	"sources" : [],
 	"type" : "INTERFACE_LIBRARY"

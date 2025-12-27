@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mbake/Documents/EverythingIsFine
+CMAKE_SOURCE_DIR = /Users/mbake/Documents/EverythingIsFine/EverythingIsFine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mbake/Documents/EverythingIsFine/build
+CMAKE_BINARY_DIR = /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -152,9 +152,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mbake/Documents/EverythingIsFine/build/CMakeFiles /Users/mbake/Documents/EverythingIsFine/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mbake/Documents/EverythingIsFine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -178,7 +178,7 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -284,6 +284,54 @@ src/Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingIsFine.dir/build.make CMakeFiles/EverythingIsFine.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
 
+src/gameplay/Player.o: src/gameplay/Player.cpp.o
+.PHONY : src/gameplay/Player.o
+
+# target to build an object file
+src/gameplay/Player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingIsFine.dir/build.make CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.o
+.PHONY : src/gameplay/Player.cpp.o
+
+src/gameplay/Player.i: src/gameplay/Player.cpp.i
+.PHONY : src/gameplay/Player.i
+
+# target to preprocess a source file
+src/gameplay/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingIsFine.dir/build.make CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.i
+.PHONY : src/gameplay/Player.cpp.i
+
+src/gameplay/Player.s: src/gameplay/Player.cpp.s
+.PHONY : src/gameplay/Player.s
+
+# target to generate assembly for a file
+src/gameplay/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingIsFine.dir/build.make CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.s
+.PHONY : src/gameplay/Player.cpp.s
+
+src/gfx/PlayerView.o: src/gfx/PlayerView.cpp.o
+.PHONY : src/gfx/PlayerView.o
+
+# target to build an object file
+src/gfx/PlayerView.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingIsFine.dir/build.make CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.o
+.PHONY : src/gfx/PlayerView.cpp.o
+
+src/gfx/PlayerView.i: src/gfx/PlayerView.cpp.i
+.PHONY : src/gfx/PlayerView.i
+
+# target to preprocess a source file
+src/gfx/PlayerView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingIsFine.dir/build.make CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.i
+.PHONY : src/gfx/PlayerView.cpp.i
+
+src/gfx/PlayerView.s: src/gfx/PlayerView.cpp.s
+.PHONY : src/gfx/PlayerView.s
+
+# target to generate assembly for a file
+src/gfx/PlayerView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingIsFine.dir/build.make CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.s
+.PHONY : src/gfx/PlayerView.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -308,6 +356,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingIsFine.dir/build.make CMakeFiles/EverythingIsFine.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/ui/Menu.o: src/ui/Menu.cpp.o
+.PHONY : src/ui/Menu.o
+
+# target to build an object file
+src/ui/Menu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingIsFine.dir/build.make CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.o
+.PHONY : src/ui/Menu.cpp.o
+
+src/ui/Menu.i: src/ui/Menu.cpp.i
+.PHONY : src/ui/Menu.i
+
+# target to preprocess a source file
+src/ui/Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingIsFine.dir/build.make CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.i
+.PHONY : src/ui/Menu.cpp.i
+
+src/ui/Menu.s: src/ui/Menu.cpp.s
+.PHONY : src/ui/Menu.s
+
+# target to generate assembly for a file
+src/ui/Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingIsFine.dir/build.make CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.s
+.PHONY : src/ui/Menu.cpp.s
+
+src/ui/OpeningCredits.o: src/ui/OpeningCredits.cpp.o
+.PHONY : src/ui/OpeningCredits.o
+
+# target to build an object file
+src/ui/OpeningCredits.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingIsFine.dir/build.make CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.o
+.PHONY : src/ui/OpeningCredits.cpp.o
+
+src/ui/OpeningCredits.i: src/ui/OpeningCredits.cpp.i
+.PHONY : src/ui/OpeningCredits.i
+
+# target to preprocess a source file
+src/ui/OpeningCredits.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingIsFine.dir/build.make CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.i
+.PHONY : src/ui/OpeningCredits.cpp.i
+
+src/ui/OpeningCredits.s: src/ui/OpeningCredits.cpp.s
+.PHONY : src/ui/OpeningCredits.s
+
+# target to generate assembly for a file
+src/ui/OpeningCredits.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EverythingIsFine.dir/build.make CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.s
+.PHONY : src/ui/OpeningCredits.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -331,9 +427,21 @@ help:
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"
+	@echo "... src/gameplay/Player.o"
+	@echo "... src/gameplay/Player.i"
+	@echo "... src/gameplay/Player.s"
+	@echo "... src/gfx/PlayerView.o"
+	@echo "... src/gfx/PlayerView.i"
+	@echo "... src/gfx/PlayerView.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/ui/Menu.o"
+	@echo "... src/ui/Menu.i"
+	@echo "... src/ui/Menu.s"
+	@echo "... src/ui/OpeningCredits.o"
+	@echo "... src/ui/OpeningCredits.i"
+	@echo "... src/ui/OpeningCredits.s"
 .PHONY : help
 
 
@@ -345,7 +453,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

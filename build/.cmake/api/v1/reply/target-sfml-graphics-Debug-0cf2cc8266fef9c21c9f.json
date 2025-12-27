@@ -112,7 +112,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=c++20 -arch arm64 -F/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks "
+					"fragment" : "-g -std=c++20 -arch arm64 -F/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks "
 				},
 				{
 					"fragment" : "-fvisibility=hidden"
@@ -136,26 +136,26 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include"
+					"path" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/src"
+					"path" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/src"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/stb_image"
+					"path" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/stb_image"
 				},
 				{
 					"backtrace" : 10,
 					"isSystem" : true,
-					"path" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/glad/include"
+					"path" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/glad/include"
 				},
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2"
+					"path" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2"
 				},
 				{
 					"backtrace" : 5,

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = -DSFML_STATIC
 
-CXX_INCLUDES = -I/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include -I/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/src
+CXX_INCLUDES = -I/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include -I/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/src
 
 CXX_FLAGSarm64 = -g -std=c++20 -arch arm64 -fvisibility=hidden
 

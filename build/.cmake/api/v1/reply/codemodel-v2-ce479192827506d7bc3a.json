@@ -7,14 +7,14 @@
 				{
 					"directoryIndex" : 7,
 					"id" : "FLAC::@a153e5727587c53fce98",
-					"jsonFile" : "target-FLAC-Debug-add478cd20a23b4e9765.json",
+					"jsonFile" : "target-FLAC-Debug-5157850ca7cbeb92fc6e.json",
 					"name" : "FLAC",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "Freetype::@98af38147d5fa7e70f61",
-					"jsonFile" : "target-Freetype-Debug-e4cbd02f70d9129f33b9.json",
+					"jsonFile" : "target-Freetype-Debug-6c4f9f40322a30e7562c.json",
 					"name" : "Freetype",
 					"projectIndex" : 1
 				},
@@ -28,7 +28,7 @@
 				{
 					"directoryIndex" : 7,
 					"id" : "OpenAL::@a153e5727587c53fce98",
-					"jsonFile" : "target-OpenAL-Debug-7b5505f27f2bd30791b3.json",
+					"jsonFile" : "target-OpenAL-Debug-8879b843c7d93021e8e2.json",
 					"name" : "OpenAL",
 					"projectIndex" : 1
 				},
@@ -63,7 +63,7 @@
 				{
 					"directoryIndex" : 7,
 					"id" : "VORBIS::@a153e5727587c53fce98",
-					"jsonFile" : "target-VORBIS-Debug-71dc5682c0069ccdd083.json",
+					"jsonFile" : "target-VORBIS-Debug-4ad629c595ed7ed52103.json",
 					"name" : "VORBIS",
 					"projectIndex" : 1
 				}
@@ -288,42 +288,42 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "EverythingIsFine::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-EverythingIsFine-Debug-37ce0c583d8cd3f89929.json",
+					"jsonFile" : "target-EverythingIsFine-Debug-8e6e0b5d31a4df9fa524.json",
 					"name" : "EverythingIsFine",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "sfml-audio::@a153e5727587c53fce98",
-					"jsonFile" : "target-sfml-audio-Debug-a4ea7f568b3caacadad3.json",
+					"jsonFile" : "target-sfml-audio-Debug-c15c2ba3258afa3d4c61.json",
 					"name" : "sfml-audio",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "sfml-graphics::@98af38147d5fa7e70f61",
-					"jsonFile" : "target-sfml-graphics-Debug-7688609ff0617e6c676d.json",
+					"jsonFile" : "target-sfml-graphics-Debug-0cf2cc8266fef9c21c9f.json",
 					"name" : "sfml-graphics",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "sfml-network::@d7f79968b2699e7782cb",
-					"jsonFile" : "target-sfml-network-Debug-f32192284cdca44babe9.json",
+					"jsonFile" : "target-sfml-network-Debug-c0f25592eda63b56ca0a.json",
 					"name" : "sfml-network",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "sfml-system::@8cb1db2982443611e568",
-					"jsonFile" : "target-sfml-system-Debug-b133cbfe965222801e41.json",
+					"jsonFile" : "target-sfml-system-Debug-73a908677bf1ee352132.json",
 					"name" : "sfml-system",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "sfml-window::@5730451e331e3690ae65",
-					"jsonFile" : "target-sfml-window-Debug-71f8dd776a8750a3de8c.json",
+					"jsonFile" : "target-sfml-window-Debug-3dfd2c5e194f886b4e14.json",
 					"name" : "sfml-window",
 					"projectIndex" : 1
 				}
@@ -333,8 +333,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/mbake/Documents/EverythingIsFine/build",
-		"source" : "/Users/mbake/Documents/EverythingIsFine"
+		"build" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build",
+		"source" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine"
 	},
 	"version" : 
 	{

@@ -108,7 +108,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=c++20 -arch arm64 -F/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks "
+					"fragment" : "-g -std=c++20 -arch arm64 -F/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks "
 				},
 				{
 					"fragment" : "-fvisibility=hidden"
@@ -136,16 +136,16 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include"
+					"path" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/src"
+					"path" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/src"
 				},
 				{
 					"backtrace" : 8,
 					"isSystem" : true,
-					"path" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/minimp3"
+					"path" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/minimp3"
 				},
 				{
 					"backtrace" : 5,
@@ -155,7 +155,7 @@
 				{
 					"backtrace" : 4,
 					"isSystem" : true,
-					"path" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
+					"path" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
 				}
 			],
 			"language" : "CXX",

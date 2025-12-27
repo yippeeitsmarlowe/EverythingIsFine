@@ -74,19 +74,19 @@
 	[
 		{
 			"backtrace" : 4,
-			"fragment" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisenc.framework"
+			"fragment" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisenc.framework"
 		},
 		{
 			"backtrace" : 5,
-			"fragment" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisfile.framework"
+			"fragment" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisfile.framework"
 		},
 		{
 			"backtrace" : 6,
-			"fragment" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbis.framework"
+			"fragment" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbis.framework"
 		},
 		{
 			"backtrace" : 7,
-			"fragment" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/ogg.framework"
+			"fragment" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/ogg.framework"
 		}
 	],
 	"name" : "VORBIS",

@@ -4,9 +4,9 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = -DSFML_STATIC
 
-CXX_INCLUDES = -I/Users/mbake/Documents/EverythingIsFine/include -I/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include
+CXX_INCLUDES = -I/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/include -I/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include
 
-CXX_FLAGSarm64 = -g -std=c++20 -arch arm64 -F/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks 
+CXX_FLAGSarm64 = -g -std=c++20 -arch arm64 -F/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks 
 
-CXX_FLAGS = -g -std=c++20 -arch arm64 -F/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks 
+CXX_FLAGS = -g -std=c++20 -arch arm64 -F/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks 
 

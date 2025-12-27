@@ -146,20 +146,20 @@
 			[
 				{
 					"backtrace" : 9,
-					"path" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include"
+					"path" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/src"
+					"path" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/src"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/vulkan"
+					"path" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/vulkan"
 				},
 				{
 					"backtrace" : 11,
 					"isSystem" : true,
-					"path" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/glad/include"
+					"path" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/glad/include"
 				}
 			],
 			"language" : "CXX",
@@ -244,20 +244,20 @@
 			[
 				{
 					"backtrace" : 9,
-					"path" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include"
+					"path" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/src"
+					"path" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/src"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/vulkan"
+					"path" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/vulkan"
 				},
 				{
 					"backtrace" : 11,
 					"isSystem" : true,
-					"path" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/glad/include"
+					"path" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/glad/include"
 				}
 			],
 			"language" : "C",

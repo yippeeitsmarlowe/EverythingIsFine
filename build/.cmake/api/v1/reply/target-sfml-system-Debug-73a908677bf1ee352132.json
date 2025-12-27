@@ -97,11 +97,11 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include"
+					"path" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/src"
+					"path" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/src"
 				}
 			],
 			"language" : "CXX",

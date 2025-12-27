@@ -8,8 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/mbake/Documents/EverythingIsFine/src/Game.cpp" "CMakeFiles/EverythingIsFine.dir/src/Game.cpp.o" "gcc" "CMakeFiles/EverythingIsFine.dir/src/Game.cpp.o.d"
-  "/Users/mbake/Documents/EverythingIsFine/src/main.cpp" "CMakeFiles/EverythingIsFine.dir/src/main.cpp.o" "gcc" "CMakeFiles/EverythingIsFine.dir/src/main.cpp.o.d"
+  "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/Game.cpp" "CMakeFiles/EverythingIsFine.dir/src/Game.cpp.o" "gcc" "CMakeFiles/EverythingIsFine.dir/src/Game.cpp.o.d"
+  "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/gameplay/Player.cpp" "CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.o" "gcc" "CMakeFiles/EverythingIsFine.dir/src/gameplay/Player.cpp.o.d"
+  "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/gfx/PlayerView.cpp" "CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.o" "gcc" "CMakeFiles/EverythingIsFine.dir/src/gfx/PlayerView.cpp.o.d"
+  "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/main.cpp" "CMakeFiles/EverythingIsFine.dir/src/main.cpp.o" "gcc" "CMakeFiles/EverythingIsFine.dir/src/main.cpp.o.d"
+  "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/ui/Menu.cpp" "CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.o" "gcc" "CMakeFiles/EverythingIsFine.dir/src/ui/Menu.cpp.o.d"
+  "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/src/ui/OpeningCredits.cpp" "CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.o" "gcc" "CMakeFiles/EverythingIsFine.dir/src/ui/OpeningCredits.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

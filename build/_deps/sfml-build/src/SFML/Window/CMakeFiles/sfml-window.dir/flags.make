@@ -5,7 +5,7 @@
 # compile CXX with /usr/bin/clang++
 C_DEFINES = -DSFML_STATIC
 
-C_INCLUDES = -I/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include -I/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/src -I/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/vulkan -isystem /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/glad/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
+C_INCLUDES = -I/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include -I/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/src -I/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/vulkan -isystem /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/glad/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
 
 C_FLAGSarm64 = -g -arch arm64 -fvisibility=hidden
 
@@ -13,7 +13,7 @@ C_FLAGS = -g -arch arm64 -fvisibility=hidden
 
 CXX_DEFINES = -DSFML_STATIC
 
-CXX_INCLUDES = -I/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/include -I/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/src -I/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/vulkan -isystem /Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/glad/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
+CXX_INCLUDES = -I/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/include -I/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/src -I/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/vulkan -isystem /Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/glad/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
 
 CXX_FLAGSarm64 = -g -std=c++20 -arch arm64 -fvisibility=hidden
 

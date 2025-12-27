@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/mbake/Documents/EverythingIsFine/build"
+			"value" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -167,10 +167,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/clang++"
 		},
 		{
@@ -263,10 +263,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/clang"
 		},
 		{
@@ -503,7 +503,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mbake/Documents/EverythingIsFine/build/CMakeFiles/pkgRedirects"
+			"value" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -563,7 +563,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/mbake/Documents/EverythingIsFine"
+			"value" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1735,7 +1735,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mbake/Documents/EverythingIsFine/build"
+			"value" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build"
 		},
 		{
 			"name" : "EverythingIsFine_IS_TOP_LEVEL",
@@ -1759,7 +1759,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mbake/Documents/EverythingIsFine"
+			"value" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine"
 		},
 		{
 			"name" : "FETCHCONTENT_BASE_DIR",
@@ -1771,7 +1771,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/Users/mbake/Documents/EverythingIsFine/build/_deps"
+			"value" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps"
 		},
 		{
 			"name" : "FETCHCONTENT_FULLY_DISCONNECTED",
@@ -1843,7 +1843,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/FLAC.framework][/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers][v()]"
+			"value" : "[/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/FLAC.framework][/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenAL",
@@ -1855,7 +1855,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/OpenAL.framework][/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers][v()]"
+			"value" : "[/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/OpenAL.framework][/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenAL.framework/Headers][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenGL",
@@ -1879,7 +1879,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisenc.framework;/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisfile.framework;/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbis.framework;/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/ogg.framework][/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers][/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers][v()]"
+			"value" : "[/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisenc.framework;/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisfile.framework;/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbis.framework;/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/ogg.framework][/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers][/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers][v()]"
 		},
 		{
 			"name" : "FLAC_INCLUDE_DIR",
@@ -1895,7 +1895,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
+			"value" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
 		},
 		{
 			"name" : "FLAC_LIBRARY",
@@ -1911,7 +1911,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/FLAC.framework"
+			"value" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/FLAC.framework"
 		},
 		{
 			"name" : "FREETYPE_INCLUDE_DIR_freetype2",
@@ -1943,7 +1943,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2"
+			"value" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers/freetype2"
 		},
 		{
 			"name" : "FREETYPE_LIBRARY",
@@ -1959,7 +1959,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/freetype.framework"
+			"value" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/freetype.framework"
 		},
 		{
 			"name" : "GIT_EXECUTABLE",
@@ -1991,7 +1991,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
+			"value" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
 		},
 		{
 			"name" : "OGG_LIBRARY",
@@ -2007,7 +2007,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/ogg.framework"
+			"value" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/ogg.framework"
 		},
 		{
 			"name" : "OPENAL_INCLUDE_DIR",
@@ -2039,7 +2039,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/OpenAL.framework"
+			"value" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/OpenAL.framework"
 		},
 		{
 			"name" : "OPENGL_GLU_INCLUDE_DIR",
@@ -2115,7 +2115,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-build"
+			"value" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-build"
 		},
 		{
 			"name" : "SFML_BUILD_AUDIO",
@@ -2271,7 +2271,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src"
+			"value" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src"
 		},
 		{
 			"name" : "SFML_USE_SYSTEM_DEPS",
@@ -2299,7 +2299,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisenc.framework"
+			"value" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisenc.framework"
 		},
 		{
 			"name" : "VORBISFILE_LIBRARY",
@@ -2315,7 +2315,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisfile.framework"
+			"value" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbisfile.framework"
 		},
 		{
 			"name" : "VORBIS_INCLUDE_DIR",
@@ -2331,7 +2331,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
+			"value" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/headers"
 		},
 		{
 			"name" : "VORBIS_LIBRARY",
@@ -2347,7 +2347,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Users/mbake/Documents/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbis.framework"
+			"value" : "/Users/mbake/Documents/EverythingIsFine/EverythingIsFine/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/vorbis.framework"
 		},
 		{
 			"name" : "WARNINGS_AS_ERRORS",
